@@ -7,12 +7,12 @@ namespace DI\Test\IntegrationTest\Definitions;
 use DI\ContainerBuilder;
 use DI\Test\IntegrationTest\BaseContainerTest;
 use DI\Test\IntegrationTest\Definitions\NestedDefinitionsTest\AllKindsOfInjections;
+use DI\Test\IntegrationTest\Definitions\NestedDefinitionsTest\Autowireable;
+use DI\Test\IntegrationTest\Definitions\NestedDefinitionsTest\AutowireableDependency;
 use function DI\autowire;
 use function DI\create;
 use function DI\env;
 use function DI\get;
-use DI\Test\IntegrationTest\Definitions\NestedDefinitionsTest\Autowireable;
-use DI\Test\IntegrationTest\Definitions\NestedDefinitionsTest\AutowireableDependency;
 
 class NestedDefinitionsTest extends BaseContainerTest
 {
